@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+import javax.swing.JOptionPane;
+
+public class EjercicioUno {
+	public static void main(String [] arg) throws IOException {
+		int x= Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor numerico"));
+		if (x<0) {
+			x=x*-1;
+		}
+		System.out.println("El numero es: "+x);
+	}
+}

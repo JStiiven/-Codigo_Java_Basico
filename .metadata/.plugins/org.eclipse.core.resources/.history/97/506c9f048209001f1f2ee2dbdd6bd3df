@@ -1,0 +1,5 @@
+
+public class EjercicioUno {
+	public static void main(String []arg) throws IOException {
+	DataInputSteam entrada=new DataInputStream(System.in);
+}
